@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.msg{
+    color: red;
+    font-size: 18px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aqua;
+}
+.form form{
+    background-color: antiquewhite;
+    text-align: center;
+    box-shadow: 0px 6px 20px rgb(red, green, blue);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 28rem;
+}
+.form form h2{
+    margin-bottom: 1.4rem;
+
+}
+.form form input{
+    padding: 10px 16px;
+    font-size: 14px;
+}
+.form form button{
+    width: 100%;
+    margin-top:10px;
+    background-color: blue;
+    color: white;
+}
+.form form p{ 
+    font-size: 16px;
+    margin-top: 8px;
+}
